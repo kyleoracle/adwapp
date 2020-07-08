@@ -1,6 +1,20 @@
 
 # a test app
 
+- function
+
+        - src/.../adw
+                
+                instance = adw/atp
+                connect by = wallet
+                api = read only api to ssb.customer, check ./sql_adw
+
+        - src/.../dbcs
+        
+                instance = dbcs/adw/atp
+                connect by = wallet or url
+                api = CURD api to xxxusr.employee, chec ./sql_dbcs
+
 - config
 
         update files in app/config and make below environment variable point to where you placed config folder. e.g.
@@ -39,3 +53,8 @@
 - visit app
 
         http://localhost:8080
+
+
+                
+                
+                 
