@@ -46,7 +46,7 @@ public class OracleDS {
 	// // }
 
 
-	// connect atp by wallet
+	// connect atp
 	private static OracleDataSource ds = null;
 
 	public static synchronized void init() throws SQLException {
